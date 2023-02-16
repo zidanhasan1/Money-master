@@ -59,6 +59,8 @@ function calculateSavings() {
         alert('Be careful when expense');
     }
     else {
+
+        // final add
         document.getElementById('saving-amount').innerText = saveAmount;
         document.getElementById('remaining-balance-all').innerText = remainBalace;
         document.getElementById('income').value = '';
